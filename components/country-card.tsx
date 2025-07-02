@@ -14,15 +14,14 @@ const CountryCard: React.FC<CountryCardProps> = ({ flagUrl, countryName }) => {
         <div className="w-3/4 bg-[#f0eee5] border-4 border-orange-500 rounded-lg p-4 flex items-center">
             <div className="w-1/4 flex items-center">
             <Image
-            width={60}
-            height={45}
+            width={50}
+            height={10}
             src={flagUrl}
             alt={`${countryName} flag`}
-            className="mr-4"
+            className='w-full h-auto rounded-lg'
             />
-
             </div>
-            <h2 className="m-0 w-1/4">{countryName}</h2>
+            <h2 className="px-4 w-1/4">{countryName}</h2>
             <TeamList countryName={countryName}/>
         </div>
     );

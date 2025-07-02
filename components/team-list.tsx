@@ -17,7 +17,7 @@ const teamMembers: team[] = [
     { country: 'Australia', 
         members: [
             {name: "Samir Singhal", favoriteBeer: 'Coors' },
-            {name: "Nikki Singhal", favoriteBeer: 'Gin Fizz' },
+            {name: "Nikki Singhal", favoriteBeer: 'A Blunt' },
         ]},
     { country: 'USA', 
         members: [
