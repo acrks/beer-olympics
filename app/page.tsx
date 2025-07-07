@@ -1,9 +1,8 @@
-import Hero from "@/components/hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="items-center justify-items-center min-h-screen pb-20 pt-20 gap-16 font-[family-name:var(--font-geist-sans)] space-y-5">
+    <div className="items-center justify-items-center pb-20 pt-20 gap-16 font-[family-name:var(--font-geist-sans)] space-y-5">
             <div className="w-full p-4 rounded-t-lg flex flex-row items-center justify-evenly">
             <p className="text-lg text-white">Blood.</p>
             <p className="text-lg text-white">Sweat.</p>
