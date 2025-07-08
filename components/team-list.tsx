@@ -14,25 +14,38 @@ interface TeamListProps {
 }
 
 const teamMembers: team[] = [
-    { country: 'Australia', 
+    { country: 'Mexico', 
         members: [
-            {name: "Samir Singhal", favoriteBeer: 'Coors' },
-            {name: "Nikki Singhal", favoriteBeer: 'A Blunt' },
+            {name: "Robyn", favoriteBeer: 'Coors' },
+            {name: "Vanessa", favoriteBeer: 'A Blunt' },
+            {name: "Arjun", favoriteBeer: 'A Blunt' },
+            {name: "Felicia", favoriteBeer: 'A Blunt' },
+            {name: "Sarah Barthlow", favoriteBeer: 'A Blunt' },
         ]},
-    { country: 'USA', 
+    { country: 'France', 
         members: [
             {name: "Christen Soucy", favoriteBeer: 'Sam Adams' },
-            {name: "Felicia", favoriteBeer: 'Guinness' }
+            {name: "Andrew", favoriteBeer: 'Guinness' },
+            {name: "Jason", favoriteBeer: 'Guinness' },
+            {name: "Paige", favoriteBeer: 'Guinness' },
+            {name: "Sophia", favoriteBeer: 'Guinness' },
         ]},
-    { country: 'Germany', 
+    { country: 'Australia', 
         members: [
+            {name: "Samir Singhal", favoriteBeer: 'IPA' },
             {name: "Alex Crooks", favoriteBeer: 'IPA' },
             {name: "Molly", favoriteBeer: 'A Candle' },
+            {name: "Golan", favoriteBeer: 'A Candle' },
+            {name: "Sanam", favoriteBeer: 'A Candle' },
         ]},
-    { country: 'Flavortown', 
+    { country: 'Thailand', 
         members: [
-            {name: "Robyn Lee-D'Elia", favoriteBeer: 'Michelob Ultra' },
-            {name: "Andrew Cardoni", favoriteBeer: 'Stone Hazy IPA' },
+            {name: "Nikki", favoriteBeer: 'Michelob Ultra' },
+            {name: "Nick", favoriteBeer: 'Stone Hazy IPA' },
+            {name: "Rad", favoriteBeer: 'Stone Hazy IPA' },
+            {name: "Trish", favoriteBeer: 'Stone Hazy IPA' },
+            {name: "Sarah Epstein", favoriteBeer: 'Stone Hazy IPA' },
+            {name: "Kian", favoriteBeer: 'Stone Hazy IPA' },
 
         ]},
 ]
@@ -48,7 +61,7 @@ const TeamList: React.FC<TeamListProps> = ({ countryName }) => {
                 {teamMembers
                     .find(team => team.country === countryName)?.members.map((member, index) => (
                     <li key={index}>
-                        {index + 1}) <strong>{member.name}</strong><br/>Favorite Beer: {member.favoriteBeer}
+                        {index + 1}) <strong>{member.name}</strong>
                     </li>
                 ))}
             </ul>

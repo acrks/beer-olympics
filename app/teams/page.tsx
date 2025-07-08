@@ -2,10 +2,10 @@ import React from 'react';
 import CountryCard from '@/components/country-card';
 
 const countries = [
-    { name: 'USA', flagUrl: '/assets/flags/usa.png' },
-    { name: 'Germany', flagUrl: '/assets/flags/ger.jpg' },
+    { name: 'Mexico', flagUrl: '/assets/flags/mexico.png' },
+    { name: 'France', flagUrl: '/assets/flags/france.png' },
     { name: 'Australia', flagUrl: '/assets/flags/aus.svg' },
-    { name: 'Flavortown', flagUrl: '/assets/flags/flavortown.png' },
+    { name: 'Thailand', flagUrl: '/assets/flags/thailand.png' },
 ];
 const TeamPage: React.FC = () => {
     return (

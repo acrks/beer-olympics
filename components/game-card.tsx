@@ -1,27 +1,22 @@
 "use client";
 
 import React from 'react';
-import { useRouter } from 'next/navigation';
 
 interface GameCardProps {
     title: string;
-    description: string;
+    roundNumber: string;
     gameURL: string;
 }
 
 
-const GameCard: React.FC<GameCardProps> = ({ title, description, gameURL }) => {
-    const router = useRouter();
-    const handleClick = () => {
-        router.push(gameURL); // Replace with your desired route
-      };
+const GameCard: React.FC<GameCardProps> = ({ title, roundNumber }) => {
     return (
         <div
-            className="w-3/4 bg-[#f0eee5] border-4 border-orange-500 rounded-lg p-4 flex flex-col items-center hover:shadow-lg transition-shadow cursor-pointer"
-            onClick={handleClick}
+            className="w-3/4 bg-[#f0eee5] border-4 border-orange-500 rounded-lg p-4 flex flex-col items-center hover:shadow-lg transition-shadow"
         >
+            <h2 className="text-xl font-bold">Round #{roundNumber+1}</h2>
             <h2 className="text-xl font-bold mb-2">{title}</h2>
-            <p className="text-gray-600">{description}</p>
+            {/* <p className="text-gray-600">{description}</p> */}
         </div>
     );
 };

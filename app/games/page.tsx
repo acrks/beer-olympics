@@ -2,9 +2,9 @@ import React from 'react';
 import GameCard from '@/components/game-card';
 
 const games = [
-    { title: 'Wheel of Misfortune', description: 'Spin the wheel and face the consequences!', gameURL: '/games/wheel-of-misfortune' },
-    { title: 'Beer Pong', description: 'Classic drinking game with a twist!', gameURL: '/games/beer-pong' },
     { title: 'Flip Cup', description: 'Team-based drinking game that tests your speed!', gameURL: '/games/flip-cup' },
+    { title: 'Rage Cage', description: 'Classic drinking game with a twist!', gameURL: '/games/beer-pong' },
+    { title: 'Beer Pong', description: 'Spin the wheel and face the consequences!', gameURL: '/games/wheel-of-misfortune' },
 ];
 
 const GamesPage: React.FC = () => {
@@ -15,7 +15,7 @@ const GamesPage: React.FC = () => {
                 <GameCard
                     key={index}
                     title={game.title}
-                    description={game.description}
+                    roundNumber={index}
                     gameURL={game.gameURL}
                 />))}
         </div>
