@@ -9,7 +9,7 @@ const games = [
 
 const GamesPage: React.FC = () => {
     return (
-        <div className="items-center justify-items-center pb-20 pt-20 gap-16 font-[family-name:var(--font-geist-sans)] space-y-5">
+        <div className="justify-items-center pb-20 pt-20 gap-16 font-[family-name:var(--font-geist-sans)] space-y-5">
             <p className='text-white'>Welcome to the Games page!</p>
         {games.map((game, index) => (
                 <GameCard

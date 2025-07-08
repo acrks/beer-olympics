@@ -6,7 +6,6 @@ interface team {
 }
 interface TeamMember {
     name: string;
-    favoriteBeer: string;
 }
 
 interface TeamListProps {
@@ -16,36 +15,36 @@ interface TeamListProps {
 const teamMembers: team[] = [
     { country: 'Mexico', 
         members: [
-            {name: "Robyn", favoriteBeer: 'Coors' },
-            {name: "Vanessa", favoriteBeer: 'A Blunt' },
-            {name: "Arjun", favoriteBeer: 'A Blunt' },
-            {name: "Felicia", favoriteBeer: 'A Blunt' },
-            {name: "Sarah Barthlow", favoriteBeer: 'A Blunt' },
+            {name: "Robyn Lee-D'Elia"},
+            {name: "Vanessa Cardoni" },
+            {name: "Arjun Singh" },
+            {name: "Felicia" },
+            {name: "Sarah Barthlow" },
         ]},
     { country: 'France', 
         members: [
-            {name: "Christen Soucy", favoriteBeer: 'Sam Adams' },
-            {name: "Andrew", favoriteBeer: 'Guinness' },
-            {name: "Jason", favoriteBeer: 'Guinness' },
-            {name: "Paige", favoriteBeer: 'Guinness' },
-            {name: "Sophia", favoriteBeer: 'Guinness' },
+            {name: "Christen Soucy"},
+            {name: "Andrew Cardoni" },
+            {name: "Jason Adame" },
+            {name: "Paige" },
+            {name: "Sophie Wood" },
         ]},
     { country: 'Australia', 
         members: [
-            {name: "Samir Singhal", favoriteBeer: 'IPA' },
-            {name: "Alex Crooks", favoriteBeer: 'IPA' },
-            {name: "Molly", favoriteBeer: 'A Candle' },
-            {name: "Golan", favoriteBeer: 'A Candle' },
-            {name: "Sanam", favoriteBeer: 'A Candle' },
+            {name: "Samir Singhal" },
+            {name: "Alex Crooks" },
+            {name: "Molly" },
+            {name: "Golan Gingold" },
+            {name: "Sanam" },
         ]},
     { country: 'Thailand', 
         members: [
-            {name: "Nikki", favoriteBeer: 'Michelob Ultra' },
-            {name: "Nick", favoriteBeer: 'Stone Hazy IPA' },
-            {name: "Rad", favoriteBeer: 'Stone Hazy IPA' },
-            {name: "Trish", favoriteBeer: 'Stone Hazy IPA' },
-            {name: "Sarah Epstein", favoriteBeer: 'Stone Hazy IPA' },
-            {name: "Kian", favoriteBeer: 'Stone Hazy IPA' },
+            {name: "Nikki Singhal" },
+            {name: "Nick" },
+            {name: "Rad Hamwi" },
+            {name: "Trish" },
+            {name: "Kian" },
+            {name: "Sarah Epstein" },
 
         ]},
 ]
