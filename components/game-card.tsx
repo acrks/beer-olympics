@@ -4,7 +4,7 @@ import React from 'react';
 
 interface GameCardProps {
     title: string;
-    roundNumber: string;
+    roundNumber: number;
     gameURL: string;
 }
 
