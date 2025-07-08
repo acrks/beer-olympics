@@ -16,7 +16,7 @@ const teamMembers: team[] = [
     { country: 'Mexico', 
         members: [
             {name: "Robyn Lee-D'Elia"},
-            {name: "Vanessa Cardoni" },
+            {name: "Vanessa Holback" },
             {name: "Arjun Singh" },
             {name: "Felicia" },
             {name: "Sarah Barthlow" },
