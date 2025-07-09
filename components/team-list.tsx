@@ -26,7 +26,6 @@ const teamMembers: team[] = [
             {name: "Christen Soucy"},
             {name: "Andrew Cardoni" },
             {name: "Jason Adame" },
-            {name: "Paige" },
             {name: "Sophie Wood" },
         ]},
     { country: 'Australia', 
@@ -42,7 +41,6 @@ const teamMembers: team[] = [
             {name: "Nikki Singhal" },
             {name: "Nick" },
             {name: "Rad Hamwi" },
-            {name: "Trish" },
             {name: "Kian" },
             {name: "Sarah Epstein" },
 
