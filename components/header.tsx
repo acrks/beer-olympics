@@ -11,6 +11,13 @@ const Header = () => {
     </Link>
     <header className="w-1/2 flex justify-end items-center text-white py-4">
     <nav className="flex w-full justify-evenly">
+      <a
+        href="https://partiful.com/e/PEp5QnjVrcHBcoy16j15"
+        target="_blank"
+        className="hover:underline hover:scale-105 transition-transform mx-2"
+      >
+        RSVP
+        </a>
       <Link
         href="/teams"
         className="hover:underline hover:scale-105 transition-transform mx-2"
