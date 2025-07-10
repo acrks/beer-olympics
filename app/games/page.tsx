@@ -2,9 +2,9 @@ import React from 'react';
 import GameCard from '@/components/game-card';
 
 const games = [
-    { title: 'Flip Cup', description: 'Team-based drinking game that tests your speed!', gameURL: '/games/flip-cup' },
-    { title: 'Rage Cage', description: 'Classic drinking game with a twist!', gameURL: '/games/beer-pong' },
-    { title: 'Beer Pong', description: 'Spin the wheel and face the consequences!', gameURL: '/games/wheel-of-misfortune' },
+    { title: 'Flip Cup', description: `Team-based drinking game that tests your speed!` },
+    { title: 'Rage Cage', description: `Bounce and stack! Be careful not to get stuck in the cage` },
+    { title: 'Beer Pong', description: `The classic with a twist. Some cups will be labelled, so if you hit the right (or wrong) cup, you'll switch with a team mate` },
 ];
 
 const GamesPage: React.FC = () => {
@@ -15,8 +15,8 @@ const GamesPage: React.FC = () => {
                 <GameCard
                     key={index}
                     title={game.title}
+                    description={game.description}
                     roundNumber={index}
-                    gameURL={game.gameURL}
                 />))}
         </div>
     );
